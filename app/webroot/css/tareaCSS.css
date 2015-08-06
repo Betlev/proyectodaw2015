@@ -1,0 +1,55 @@
+/*nada por ahora*/
+.van a{
+    background: #096B89;
+    color:#fff;
+    padding: 3px 17px 0;
+    text-decoration: none;
+    border-radius: 6px 6px 0 0;
+    display: inline-block;
+    margin: 0 6px;
+}
+
+.van a.selected{
+    background: #fff;
+    color:#003d4c;
+    text-decoration: none;
+    border-radius: 6px 6px 0 0;
+}
+
+.login{
+    text-align: right;
+}
+
+fieldset legend{
+    color:#003d4c;
+}
+tr.minima{
+    background: #00B3CE !important;
+}
+tr.baja{
+    background: #00CE75 !important;
+}
+tr.normal{
+    background: #CECB00 !important;
+}
+tr.alta{
+    background: rgba(179,91,211,0.8) !important;
+}
+tr.urgente{
+    background: rgba(234, 63, 60,0.8) !important;
+}
+
+
+.listatareas td:not(1),
+.listatareas th:not(1){
+    width:20%;    
+}
+.listatareas td:nth-of-type(1),
+.listatareas th:nth-of-type(1){
+    width:40%;    
+}
+
+th.actions{
+    text-align: center;
+    white-space: nowrap;
+}
